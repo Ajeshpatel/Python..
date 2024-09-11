@@ -1,5 +1,6 @@
 # write a program to reverse String in python
 
+# method:1
 # string  = input("enter a string:-")
 # length_str = len(string)
 # result = ""

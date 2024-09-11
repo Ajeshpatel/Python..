@@ -12,13 +12,13 @@
 #     print(string, ", will be a palindrome")
 
 
-# method:2
-# string  = input("enter a string:-")
-# result = ""
+method:2
+string  = input("enter a string:-")
+result = ""
 
-# for i in string:
-#     result = i + result
+for i in string:
+    result = i + result
 
-# if(string == result):
-#     print(string, ", will be a palindrome")
+if(string == result):
+    print(string, ", will be a palindrome")
 

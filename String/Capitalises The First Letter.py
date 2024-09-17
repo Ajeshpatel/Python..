@@ -2,5 +2,6 @@
 
 # method:1 using title method.
 s = input("Enter any String:- ")
+
 result = s.title()
 print(result)

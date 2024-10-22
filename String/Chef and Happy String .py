@@ -57,16 +57,14 @@ t = int(input())
 while t > 0:
     s = input()
     # Your code goes here
-    t -= 1
     
     count = 0
+    ans = 0
     for i in s:
         if i in "aeiou":
             count += 1
             if(count > 2):
                 ans = 1
-            else:
-                ans = 0
         else:
             count = 0
             
@@ -74,3 +72,5 @@ while t > 0:
         print("Happy")
     else:
         print("Sad")
+    
+    t -= 1
